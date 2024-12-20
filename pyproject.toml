@@ -1,6 +1,6 @@
 [project]
 name = "shiny-calendar"
-version = "0.1.0"
+version = "0.1.1"
 license = "MIT"
 description = "A calendar component for Python Shiny using FullCalendar"
 readme = "README.md"

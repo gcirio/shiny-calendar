@@ -6,7 +6,7 @@ from shiny.render.renderer import Jsonifiable, Renderer
 
 shiny_calendar_deps = HTMLDependency(
     "shiny-calendar",
-    "0.1.0",
+    "0.1.1",
     source={
         "package": "shiny_calendar",
         "subdir": str(PurePath(__file__).parent / "distjs"),
