@@ -4,7 +4,9 @@
 
 Calendar component for Python Shiny using [FullCalendar](https://fullcalendar.io/).
 
-It presently supports:
+### [Here for a live demo](https://gcirio.github.io/shiny-calendar/)
+
+It currently supports:
 
 - all configuration options and frontend interactions from FullCalendar
 - server-side setup up of config, events and resources at init
@@ -143,7 +145,7 @@ async def _():
     await shiny_calendar_call_js_func(session, "my_calendar", js_func)
 ```
 
-And this snippet chanes the color of an event to red when the event is selected:
+And this snippet changes the color of an event to red when the event is selected:
 
 ```python
 from shiny_calendar import shiny_calendar_call_js_func

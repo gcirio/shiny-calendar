@@ -1,6 +1,7 @@
 [project]
 name = "shiny-calendar"
 version = "0.1.0"
+license = "MIT"
 description = "A calendar component for Python Shiny using FullCalendar"
 readme = "README.md"
 authors = [
@@ -29,5 +30,6 @@ ignore-vcs = true
 dev = [
     "pre-commit>=4.0.1",
     "ruff>=0.8.3",
+    "shinylive>=0.7.3",
 ]
 
